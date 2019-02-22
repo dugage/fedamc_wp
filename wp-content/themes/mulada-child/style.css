@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/*
+	Theme Name: Mulada Child Theme
+	Theme URI: http://themeforest.net/user/gloriatheme
+	Description:  Mulada Child Theme
+	Author: Gloria Theme
+	Author URI: http://gloriatheme.com/
+	Template: mulada
+	License: GNU General Public License v2 or later
+	License URI: http://www.gnu.org/licenses/gpl-2.0.html
+	Text Domain: mulada-child
+	Version: 1.0
+*/
+
+@import url("../mulada/style.css");
+
+.post-list article .post-image img, .chosen-post-widget article .post-image img, .onest-grid-posts-widget article .post-image img {
+    display: none;
+    max-width: none;
+    transform: translate3d(-40px, 0px, 0px);
+    transition-delay: 0s, 0s;
+    transition-duration: 0.35s, 0.35s;
+    transition-property: opacity, transform;
+    transition-timing-function: ease, ease;
+    width: calc(100% + 50px);
